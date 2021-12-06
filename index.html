@@ -5,45 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./all.css">
-    <link rel="stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="./itemsTracker.css">
     <title>TODO APP</title>
 </head>
 <body>
     <section>
         <div class="container">
             <div class="box">
+                <div class="alert"></div>
                 <div class="box-title"><h3>Grocery Bud</h3></div>
-                <form action="#">
+                <form action="#" class="form">
                     <input type="text" name="details" id="inputArea" placeholder="e.g. bread">
-                    <button type="submit">Submit</button>
+                    <button class='submit' type="submit">Submit</button>
                 </form>
-                <div class="displayArea">
-                    <div class="displayColumn">
-                        <div class="itemName"><h4>Eggs</h4></div>
-                        <div class="icons">
-                            <span><i class="fas fa-edit icon"></i></span>
-                            <span><i class="fas fa-trash icon"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="displayColumn">
-                    <div class="itemName"><h4>Eggs</h4></div>
-                    <div class="icons">
-                        <span><i class="fas fa-edit icon"></i></span>
-                        <span><i class="fas fa-trash icon"></i></span>
-                    </div>
-                </div>
-                <div class="displayColumn">
-                    <div class="itemName"><h4>Eggs</h4></div>
-                    <div class="icons">
-                        <span><i class="fas fa-edit icon"></i></span>
-                        <span><i class="fas fa-trash icon"></i></span>
-                    </div>
+                <div class="displayArea"></div>
+                <div class="clear">
+                    <button>Clear items</button>
                 </div>
             </div>
         </div>
     </section>
-    <script src="./todo.js"></script>
+    <script src="./itemsTracker.js"></script>
     <script src="./all.js"></script>
 </body>
 </html>
